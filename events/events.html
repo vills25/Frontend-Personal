@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>This is heading</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, quasi odit beatae quo quae eos ex animi fuga corrupti 
+           est magnam laboriosam dolore hic illo, suscipit sint ipsum et iure?</p>
+    </div>
+    <button id="btn"> Show / Hide</button>
+    <script>
+        let btn = document.getElementById("btn");
+        let container = document.querySelector(".container");
+
+        btn.addEventListener("click", function(){
+            container.classList.toggle("hide");
+        })
+   
+    </script>
+</body>
+</html>
